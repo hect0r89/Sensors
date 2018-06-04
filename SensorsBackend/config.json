@@ -1,0 +1,25 @@
+[{
+  "model": "sensors.SensorConfiguration",
+  "pk": 1,
+  "fields": {"id_signal" :"temperatura",
+  "signal_type": "mean"}
+},
+  {
+  "model": "sensors.SensorConfiguration",
+  "pk": 2,
+  "fields": {"id_signal" :"humedad",
+  "signal_type": "mean"}
+},
+  {
+  "model": "sensors.SensorConfiguration",
+  "pk": 3,
+  "fields": {"id_signal" :"presion_atmosferica",
+  "signal_type": "mean"}
+},
+  {
+  "model": "sensors.SensorConfiguration",
+  "pk": 4,
+  "fields": {"id_signal" :"volumen_lluvias",
+  "signal_type": "sum"}
+}
+]
